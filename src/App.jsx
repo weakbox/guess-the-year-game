@@ -4,7 +4,7 @@ import TitleBar from './TitleBar'
 function App() {
   return (
     <div className='app-container'>
-      <TitleBar />
+      <TitleBar text='weakbox industries'/>
     </div>
   )
 }

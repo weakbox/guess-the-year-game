@@ -9,18 +9,19 @@ $toon-inset-shadow: inset 0px -8px 0px -2px rgba(0,0,0,0.2);
 }
 
 .title-container {
-  border: 2px solid $border-color;
-  background-color: $title-bar-color;
-  color: $text-color;
-  padding: 0.5rem;
-  box-shadow: $toon-inset-shadow;
-  font-family: monospace;
-  width: 80%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  align-content: center;
+
+  padding: 0.25rem;
+  border: 2px solid $border-color;
+  background-color: $title-bar-color;
+  color: $text-color;
+  box-shadow: $toon-inset-shadow;
+  font-family: monospace;
+  width: 90%;
 }
 
 p {

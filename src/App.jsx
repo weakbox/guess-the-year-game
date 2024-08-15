@@ -1,9 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import './App.scss'
+import TitleBar from './TitleBar'
 
 function App() {
   return (
-    <>Hello World</>
+    <div className='app-container'>
+      <TitleBar />
+    </div>
   )
 }
 

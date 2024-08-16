@@ -18,7 +18,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   height: 100vh;
   width: 414px;
   background-color: rgb(255, 255, 255);
@@ -69,4 +68,11 @@
 .text-muted {
   color: grey;
   font-style: italic;
+}
+
+// Move content to center of page when on desktop:
+@media only screen and (min-height: 900px) {
+  .app-container {
+    justify-content: center;
+  }
 }

@@ -14,6 +14,11 @@
   border-top-right-radius: 8px;
 }
 
+body {
+  background-color: white;
+  transition: background-color 1s ease;
+}
+
 .app-container {
   @include round-top();
   display: flex;
@@ -23,6 +28,7 @@
   width: 414px;
   background-color: white;
   padding: 2rem;
+  border: 1px solid lightgrey;
 }
 
 #question-text {
@@ -71,9 +77,13 @@
   font-style: italic;
 }
 
-// Move content to center of page when on desktop:
+// Desktop Mode:
 @media only screen and (min-height: 900px) {
   .app-container {
     justify-content: center;
+  }
+
+  body {
+    background-color: rgb(191, 237, 255);
   }
 }

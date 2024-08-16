@@ -43,28 +43,39 @@ body {
   background-color: $xp-window-bg;
   width: 100%;
   overflow: hidden; // Fixes issue with border radius.
-  border: 1px solid rgb(9,87,222);
-
-  $xp-border: 4px solid rgb(0,85,230);
+  border: 1px solid rgb(9, 78, 196);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   $xp-title-gradient: linear-gradient(180deg, rgba(66,150,253,1) 0%, rgba(0,80,219,1) 15%, rgb(8, 107, 255) 67%, rgba(1,83,227,1) 100%);
 
-  h3 {
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 1.5px 1.5px 0px rgba(0,0,0,0.75);
+  .xp-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
     color: white;
     background: $xp-title-gradient;
+
+    .xp-icon {
+      width: fit-content;
+      height: 1.1rem;
+    }
+
+    .xp-title {
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-shadow: 1.5px 1.5px 0px rgba(0,0,0,0.75);
+    }
   }
 
   .xp-img-container {
     width: 100%;
     padding: 0.5rem;
-    border-left: $xp-border;
-    border-right: $xp-border;
-    border-bottom: $xp-border;
+    border-left: 3px solid rgb(0,85,230);
+    border-right: 3px solid rgb(0, 40, 219);
+    border-bottom: 3px solid rgb(0, 42, 230);
   }
 
   img {

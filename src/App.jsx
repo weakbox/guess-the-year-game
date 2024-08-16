@@ -14,6 +14,13 @@ const evaluateGuess = (guess, year) => {
   return `Your guess: ${guess}\nActual Year: ${year}\nYou were ${difference} years off.`;
 };
 
+const trimImageLink = (link) => {
+  const truncatedString = link.substring(1 + link.lastIndexOf("/"));
+  return truncatedString.length < 45 
+    ? truncatedString 
+    : truncatedString.substring(0, 40) + "...";
+};
+
 function App() {
   const [question, setQuestion] = useState(getRandomQuestion());
   const [year, setYear] = useState(yearMax);
@@ -32,7 +39,10 @@ function App() {
       <p className="text-center text-muted">In what year did the following happen?</p>
       <h2 id="question-text" className="text-center">{ question.text }</h2>
       <div className="xp-container">
-        <h3>image_hint.jpg</h3>
+        <div className="xp-title-container">
+          <img className="xp-icon" src="src\assets\xp_jpeg_icon.png"/>
+          <h5 className="xp-title">{ trimImageLink(question.img) }</h5>
+        </div>
         <div className="xp-img-container">
           <img id="question-img" src={ question.img }/>
         </div>

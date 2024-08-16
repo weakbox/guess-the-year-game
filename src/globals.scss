@@ -9,6 +9,10 @@
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+@mixin round-top() {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
 
 .app-container {
   display: flex;
@@ -27,12 +31,20 @@
 
 #question-img {
   @include margins();
+  @include round-top();
+  object-fit: contain;
   border: 1px solid black;
+  aspect-ratio: 1;
   width: 100%;
+  background-color: rgb(206, 206, 206);
 }
 
 .year-container {
   @include margins();
+  @include round-top();
+  padding: 0.5rem;
+  padding-top: 0.25rem;
+  border: 1px solid black;
 }
 
 #guess-slider {
@@ -43,6 +55,7 @@
 #guess-button {
   @include margins();
   width: 100%;
+  height: 3rem;
 }
 
 .text-center {

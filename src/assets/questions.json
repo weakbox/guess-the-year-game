@@ -1,17 +1,62 @@
 [
   {
-    "text": "The CN Tower is completed.",
-    "year": 1976,
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Toronto_-_ON_-_Toronto_Harbourfront7.jpg/375px-Toronto_-_ON_-_Toronto_Harbourfront7.jpg"
-  },
-  {
     "text": "The Nintendo DS is launched in America.",
     "year": 2004,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Nintendo-DS-Fat-Blue.jpg/330px-Nintendo-DS-Fat-Blue.jpg"
   },
   {
-    "text": "Myspace is launched.",
-    "year": 2003,
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Myspace2024.png/450px-Myspace2024.png"
+    "text": "The Nintendo 64 is launched in America.",
+    "year": 1996,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/N64-Console-Set.jpg/330px-N64-Console-Set.jpg"
+  },
+  {
+    "text": "The Super Nintendo Entertainment System is launched in America.",
+    "year": 1991,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nintendo-Super-Famicom-Set-FL.jpg/375px-Nintendo-Super-Famicom-Set-FL.jpg"
+  },
+  {
+    "text": "The Nintendo Gamecube is launched in America.",
+    "year": 2001,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/GameCube-Set.jpg/330px-GameCube-Set.jpg"
+  },
+  {
+    "text": "The Nintendo Wii is launched in America.",
+    "year": 2006,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Wii-Console.png/330px-Wii-Console.png"
+  },
+  {
+    "text": "The Nintendo Wii U is launched in America.",
+    "year": 2012,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Wii_U_Console_and_Gamepad.png/2880px-Wii_U_Console_and_Gamepad.png"
+  },
+  {
+    "text": "The Nintendo Switch is launched in America.",
+    "year": 2017,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg/450px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg"
+  },
+  {
+    "text": "The Nintendo Entertainment System is launched in America.",
+    "year": 1985,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/NES-Console-Set.png/2880px-NES-Console-Set.png"
+  },
+  {
+    "text": "The Nintendo Game Boy is launched in America.",
+    "year": 1989,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Game-Boy-FL.jpg/330px-Game-Boy-FL.jpg"
+  },
+  {
+    "text": "The Nintendo 3DS is launched in America.",
+    "year": 2011,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nintendo-3DS-AquaOpen.jpg/330px-Nintendo-3DS-AquaOpen.jpg"
+  },
+  {
+    "text": "The Nintendo Game Boy Advance is launched in America.",
+    "year": 2001,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Nintendo-Game-Boy-Advance-Purple-FL.jpg/450px-Nintendo-Game-Boy-Advance-Purple-FL.jpg"
+  },
+  {
+    "text": "The Nintendo Game Boy Color is launched in America.",
+    "year": 1998,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Game-Boy-Color-FL.jpg/330px-Nintendo-Game-Boy-Color-FL.jpg"
   }
 ]

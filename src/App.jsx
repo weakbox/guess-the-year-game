@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './globals.scss';
 import questions from './assets/questions.json';
-import Card from './components/Card';
 
 const yearMin = 1924;
 const yearMax = 2024;
@@ -24,8 +23,7 @@ function App() {
   };
 
   const handleGuess = () => {
-    const string = evaluateGuess(year, question.year);
-    alert(string);
+    alert(evaluateGuess(year, question.year));
     setQuestion(getRandomQuestion());
   };
 

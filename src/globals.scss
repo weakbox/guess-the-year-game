@@ -1,0 +1,42 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 360px;
+  background-color: aliceblue;
+  padding: 2rem;
+}
+
+#question-img {
+  width: 100%;
+}
+
+#guess-slider {
+  width: 100%
+}
+
+#guess-button {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-muted {
+  color: grey;
+  font-style: italic;
+}

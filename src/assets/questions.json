@@ -1,62 +1,87 @@
 [
   {
-    "text": "The Nintendo DS is launched in America.",
+    "text": "The Nintendo DS is released in North America.",
     "year": 2004,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Nintendo-DS-Fat-Blue.jpg/330px-Nintendo-DS-Fat-Blue.jpg"
   },
   {
-    "text": "The Nintendo 64 is launched in America.",
+    "text": "The Nintendo 64 is released in North America.",
     "year": 1996,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/N64-Console-Set.jpg/330px-N64-Console-Set.jpg"
   },
   {
-    "text": "The Super Nintendo Entertainment System is launched in America.",
+    "text": "The Super Nintendo Entertainment System is released in North America.",
     "year": 1991,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nintendo-Super-Famicom-Set-FL.jpg/375px-Nintendo-Super-Famicom-Set-FL.jpg"
   },
   {
-    "text": "The Nintendo Gamecube is launched in America.",
+    "text": "The Nintendo Gamecube is released in North America.",
     "year": 2001,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/GameCube-Set.jpg/330px-GameCube-Set.jpg"
   },
   {
-    "text": "The Nintendo Wii is launched in America.",
+    "text": "The Nintendo Wii is released in North America.",
     "year": 2006,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Wii-Console.png/330px-Wii-Console.png"
   },
   {
-    "text": "The Nintendo Wii U is launched in America.",
+    "text": "The Nintendo Wii U is released in North America.",
     "year": 2012,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Wii_U_Console_and_Gamepad.png/2880px-Wii_U_Console_and_Gamepad.png"
   },
   {
-    "text": "The Nintendo Switch is launched in America.",
+    "text": "The Nintendo Switch is released in North America.",
     "year": 2017,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg/450px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg"
   },
   {
-    "text": "The Nintendo Entertainment System is launched in America.",
+    "text": "The Nintendo Entertainment System is released in North America.",
     "year": 1985,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/NES-Console-Set.png/2880px-NES-Console-Set.png"
   },
   {
-    "text": "The Nintendo Game Boy is launched in America.",
+    "text": "The Nintendo Game Boy is released in North America.",
     "year": 1989,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Game-Boy-FL.jpg/330px-Game-Boy-FL.jpg"
   },
   {
-    "text": "The Nintendo 3DS is launched in America.",
+    "text": "The Nintendo 3DS is released in North America.",
     "year": 2011,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nintendo-3DS-AquaOpen.jpg/330px-Nintendo-3DS-AquaOpen.jpg"
   },
   {
-    "text": "The Nintendo Game Boy Advance is launched in America.",
+    "text": "The Nintendo Game Boy Advance is released in North America.",
     "year": 2001,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Nintendo-Game-Boy-Advance-Purple-FL.jpg/450px-Nintendo-Game-Boy-Advance-Purple-FL.jpg"
   },
   {
-    "text": "The Nintendo Game Boy Color is launched in America.",
+    "text": "The Nintendo Game Boy Color is released in North America.",
     "year": 1998,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Game-Boy-Color-FL.jpg/330px-Nintendo-Game-Boy-Color-FL.jpg"
+  },
+  {
+    "text": "The Sony Playstation is released in North America.",
+    "year": 1995,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/PlayStation-SCPH-1000-with-Controller.jpg/375px-PlayStation-SCPH-1000-with-Controller.jpg"
+  },
+  {
+    "text": "The Sony Playstation 2 is released in North America.",
+    "year": 2000,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/PS2-Versions.jpg/330px-PS2-Versions.jpg"
+  },
+  {
+    "text": "The Sony Playstation 3 is released in North America.",
+    "year": 2006,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sony-PlayStation-3-CECHA01-wController-L.jpg/375px-Sony-PlayStation-3-CECHA01-wController-L.jpg"
+  },
+  {
+    "text": "The Sony Playstation 4 is released in North America.",
+    "year": 2013,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sony-PlayStation-4-PS4-wDualShock-4.jpg/330px-Sony-PlayStation-4-PS4-wDualShock-4.jpg"
+  },
+  {
+    "text": "The Sony Playstation 5 is released in North America.",
+    "year": 2020,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Black_and_white_Playstation_5_base_edition_with_controller.png/330px-Black_and_white_Playstation_5_base_edition_with_controller.png"
   }
 ]

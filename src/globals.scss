@@ -15,12 +15,13 @@
 }
 
 .app-container {
+  @include round-top();
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 100svh; // Small Viewport: Maybe can fix toolbar visual bug?
   width: 414px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   padding: 2rem;
 }
 

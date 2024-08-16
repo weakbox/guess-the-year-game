@@ -31,7 +31,12 @@ function App() {
     <div className="app-container">
       <p className="text-center text-muted">In what year did the following happen?</p>
       <h2 id="question-text" className="text-center">{ question.text }</h2>
-      <img id="question-img" src={ question.img }/>
+      <div className="xp-container">
+        <h3>image_hint.jpg</h3>
+        <div className="xp-img-container">
+          <img id="question-img" src={ question.img }/>
+        </div>
+      </div>
       <div className="year-container text-center">
         <p className="text-bold text-center">Your Guess:</p>
         <input type="number" id="guess-year" value={ year } onChange={ changeYear } min={ yearMin } max={ yearMax }/>

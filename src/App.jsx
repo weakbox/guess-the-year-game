@@ -18,8 +18,10 @@ function App() {
       <p className="text-center text-muted">In what year did the following happen?</p>
       <h2 id="question-text" className="text-center">{ question.text }</h2>
       <img id="question-img" src={ question.img }/>
-      <p className="text-bold">Guess</p>
-      <p id="guess-year">2024</p>
+      <div className="year-container">
+        <p className="text-bold text-center">Your Guess:</p>
+        <input type="number" id="guess-year"></input>
+      </div>
       <input id="guess-slider" type="range" min="1924" max="2024"></input>
       <button id="guess-button" onClick={ changeQuestion }>Confirm</button>
     </div>

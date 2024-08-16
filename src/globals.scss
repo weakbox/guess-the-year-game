@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+@mixin margins {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
@@ -16,15 +21,27 @@
   padding: 2rem;
 }
 
+#question-text {
+  @include margins();
+}
+
 #question-img {
+  @include margins();
+  border: 1px solid black;
   width: 100%;
 }
 
+.year-container {
+  @include margins();
+}
+
 #guess-slider {
+  @include margins();
   width: 100%
 }
 
 #guess-button {
+  @include margins();
   width: 100%;
 }
 

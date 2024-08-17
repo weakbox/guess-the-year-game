@@ -27,6 +27,7 @@ body {
   width: 414px;
   background-image: white;
   padding: 1rem;
+  background-image: url(/bg_bliss.png);
   background-size: cover;
 }
 
@@ -135,6 +136,62 @@ $xp-border-bottom-color: rgb(0, 42, 230);
     button:active {
       background-color: $xp-bg-color-hover;
       transform: translateY(2px);
+    }
+  }
+}
+
+.xp-taskbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.25rem;
+  width: 414px;
+  height: 2.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  position: absolute;
+  bottom: 0;
+
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(66, 150, 253, 1) 0%,
+    rgba(0, 80, 219, 1) 15%,
+    rgb(8, 107, 255) 67%,
+    rgba(1, 83, 227, 1) 100%
+  );
+  border: 1px solid $xp-border-color;
+  border-radius: 0;
+
+  .program {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    width: 50%;
+    height: 80%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 1px solid $xp-border-color;
+    border-radius: 2px;
+    background: linear-gradient(
+    180deg,
+    rgba(66, 150, 253, 1) 0%,
+    rgba(0, 80, 219, 1) 15%,
+    rgb(8, 107, 255) 67%,
+    rgba(1, 83, 227, 1) 100%
+  );
+    a {
+      font-family: Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 100;
+      color: white;
+      text-decoration: none;
+    }
+
+    i {
+      filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.75));
     }
   }
 }

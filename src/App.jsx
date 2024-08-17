@@ -35,7 +35,7 @@ function App() {
   };
 
   return (
-    <div className="app-container" style={{ backgroundImage: "./bg_bliss.png" }}>
+    <div className="app-container">
 
       <div className="xp-container">
         <div className="xp-title-container">
@@ -66,6 +66,18 @@ function App() {
           <button id="guess-button" onClick={ handleGuess }>Confirm Guess</button>
         </div>
       </div>
+      
+      <div className="xp-taskbar">
+        <span className="program">
+          <i class="fa-brands fa-square-github"></i>
+          <a href="https://github.com/weakbox/guess-the-year-game">GitHub Repo</a>
+        </span>
+        <span className="program">
+          <i class="fa-brands fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/weakbox/">My LinkedIn!</a>
+        </span>
+      </div>
+
     </div>
   );
 }

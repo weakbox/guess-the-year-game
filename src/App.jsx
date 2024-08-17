@@ -58,7 +58,7 @@ function App() {
       <div className="xp-container">
         <div className="xp-title-container">
           <img className="xp-icon" src="./guess_icon.png"/>
-          <h5 className="xp-title">Your Guess:</h5>
+          <h5 className="xp-title">What is your guess?</h5>
         </div>
         <div className="xp-body-container">
           <input type="number" id="guess-year" value={ year } onChange={ changeYear } min={ yearMin } max={ yearMax }/>

@@ -5,8 +5,6 @@
   box-sizing: border-box;
 }
 
-$xp-window-bg: rgb(236,233,216);
-
 @mixin margins {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -25,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh; // Small Viewport: Maybe can fix toolbar visual bug?
+  height: 100vh;
   width: 414px;
   background-image: white;
   padding: 2rem;
@@ -34,6 +32,8 @@ body {
 }
 
 // Windows XP style window:
+$xp-bg-color: rgb(236,233,216);
+$xp-bg-color-hover: rgb(204, 202, 188);
 $xp-border-color: rgb(9, 78, 196);
 $xp-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 $xp-border-left-color: rgb(0, 85, 230);
@@ -44,7 +44,7 @@ $xp-border-bottom-color: rgb(0, 42, 230);
   @include margins();
   @include round-top();
   width: 100%;
-  background-color: $xp-window-bg;
+  background-color: $xp-bg-color;
   border: 1px solid $xp-border-color;
   box-shadow: $xp-box-shadow;
   overflow: hidden; // Fixes issue with border radius.
@@ -54,8 +54,8 @@ $xp-border-bottom-color: rgb(0, 42, 230);
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 0.15rem;
-    padding: 0.35rem 0.25rem;
+    gap: 0.3rem;
+    padding: 0.35rem 0.5rem;
     color: white;
     background: linear-gradient(
       180deg,
@@ -73,7 +73,7 @@ $xp-border-bottom-color: rgb(0, 42, 230);
 
     .xp-title {
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.75);
+      text-shadow: 1.2px 1.2px 0.5px rgba(0, 0, 0, 0.75);
     }
   }
 
@@ -81,6 +81,7 @@ $xp-border-bottom-color: rgb(0, 42, 230);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
     width: 100%;
     padding: 0.5rem;
@@ -88,12 +89,35 @@ $xp-border-bottom-color: rgb(0, 42, 230);
     border-left: 3px solid $xp-border-left-color;
     border-right: 3px solid $xp-border-right-color;
     border-bottom: 3px solid $xp-border-bottom-color;
-  }
 
-  img {
-    width: 100%;
-    aspect-ratio: 4/3;
-    object-fit: contain;
+    img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      object-fit: contain;
+    }
+
+    #guess-slider {
+      width: 95%;
+    }
+
+    button {
+      width: 50%;
+      height: 2rem;
+      color: black;
+      background-color: $xp-bg-color;
+      transition: background-color 0.25s ease;
+      border: 1px solid black;
+      box-shadow: inset -2px -2px 2px 0 rgba(0,0,0,0.5),inset 2px 2px 2px 0 rgba(255,255,255,0.8);
+    }
+
+    button:hover {
+      background-color: $xp-bg-color-hover;
+    }
+
+    button:active {
+      background-color: $xp-bg-color-hover;
+      transform: translateY(2px);
+    }
   }
 }
 

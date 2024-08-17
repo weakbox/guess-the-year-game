@@ -37,13 +37,17 @@ function App() {
   return (
     <div className="app-container">
       <div className="xp-taskbar">
+        <span className="start">
+          <i class="fa-brands fa-windows"></i>
+          start
+        </span>
         <span className="program">
           <i class="fa-brands fa-square-github"></i>
-          <a href="https://github.com/weakbox/guess-the-year-game">GitHub Reposit...</a>
+          <a href="https://github.com/weakbox/guess-the-year-game">GitHub</a>
         </span>
         <span className="program">
           <i class="fa-brands fa-linkedin"></i>
-          <a href="https://www.linkedin.com/in/weakbox/">My LinkedIn!</a>
+          <a href="https://www.linkedin.com/in/weakbox/">LinkedIn</a>
         </span>
       </div>
       <div className="xp-container">

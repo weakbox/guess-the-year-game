@@ -22,7 +22,6 @@ body {
 }
 
 .app-container {
-  @include round-top();
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +29,8 @@ body {
   width: 414px;
   background-color: white;
   padding: 2rem;
-  border: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
 }
 
 #question-text {
@@ -58,6 +58,7 @@ body {
     padding-right: 0.25rem;
     color: white;
     background: $xp-title-gradient;
+    gap: 0.15rem;
 
     .xp-icon {
       width: fit-content;
@@ -70,7 +71,8 @@ body {
     }
   }
 
-  .xp-img-container {
+  .xp-body-container {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
     padding: 0.5rem;
     border-left: 3px solid rgb(0,85,230);
@@ -125,6 +127,6 @@ body {
   }
 
   body {
-    background-color: rgb(191, 237, 255);
+    background: linear-gradient(to bottom, #00b4db, #008fbe);
   }
 }

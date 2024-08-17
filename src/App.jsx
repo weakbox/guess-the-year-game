@@ -36,14 +36,21 @@ function App() {
 
   return (
     <div className="app-container">
-      <p className="text-center text-muted">In what year did the following happen?</p>
-      <h2 id="question-text" className="text-center">{ question.text }</h2>
       <div className="xp-container">
         <div className="xp-title-container">
-          <img className="xp-icon" src="src\assets\xp_jpeg_icon.png"/>
+          <img className="xp-icon" src="src\assets\question_icon.png"/>
+          <h5 className="xp-title">In what year did the following happen?</h5>
+        </div>
+        <div className="xp-body-container">
+          <h2 id="question-text">{ question.text }</h2>
+        </div>
+      </div>
+      <div className="xp-container">
+        <div className="xp-title-container">
+          <img className="xp-icon" src="src\assets\image_icon.png"/>
           <h5 className="xp-title">{ trimImageLink(question.img) }</h5>
         </div>
-        <div className="xp-img-container">
+        <div className="xp-body-container">
           <img id="question-img" src={ question.img }/>
         </div>
       </div>
@@ -52,7 +59,7 @@ function App() {
         <input type="number" id="guess-year" value={ year } onChange={ changeYear } min={ yearMin } max={ yearMax }/>
       </div>
       <input id="guess-slider" type="range" value={ year } onChange={ changeYear } min={ yearMin } max={ yearMax }/>
-      <button id="guess-button" onClick={ handleGuess }>Confirm</button>
+      <button id="guess-button" onClick={ handleGuess }>Confirm Guess</button>
     </div>
   );
 }

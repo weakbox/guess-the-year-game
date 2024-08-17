@@ -38,7 +38,7 @@ function App() {
     <div className="app-container">
       <div className="xp-container">
         <div className="xp-title-container">
-          <img className="xp-icon" src="src\assets\question_icon.png"/>
+          <img className="xp-icon" src="./question_icon.png"/>
           <h5 className="xp-title">In what year did the following happen?</h5>
         </div>
         <div className="xp-body-container">
@@ -47,7 +47,7 @@ function App() {
       </div>
       <div className="xp-container">
         <div className="xp-title-container">
-          <img className="xp-icon" src="src\assets\image_icon.png"/>
+          <img className="xp-icon" src="./image_icon.png"/>
           <h5 className="xp-title">{ trimImageLink(question.img) }</h5>
         </div>
         <div className="xp-body-container">

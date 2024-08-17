@@ -35,7 +35,7 @@ function App() {
   };
 
   return (
-    <div className="app-container">
+    <div className="app-container" style={{ backgroundImage: "./bg_bliss.png" }}>
 
       <div className="xp-container">
         <div className="xp-title-container">

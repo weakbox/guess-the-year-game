@@ -27,34 +27,43 @@ body {
   align-items: center;
   height: 100vh; // Small Viewport: Maybe can fix toolbar visual bug?
   width: 414px;
-  background-color: white;
+  background-image: white;
   padding: 2rem;
   border-left: 1px solid lightgrey;
   border-right: 1px solid lightgrey;
 }
 
+// Windows XP style window:
+$xp-border-color: rgb(9, 78, 196);
+$xp-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+$xp-border-left-color: rgb(0, 85, 230);
+$xp-border-right-color: rgb(0, 40, 219);
+$xp-border-bottom-color: rgb(0, 42, 230);
+
 .xp-container {
   @include margins();
   @include round-top();
-  background-color: $xp-window-bg;
   width: 100%;
+  background-color: $xp-window-bg;
+  border: 1px solid $xp-border-color;
+  box-shadow: $xp-box-shadow;
   overflow: hidden; // Fixes issue with border radius.
-  border: 1px solid rgb(9, 78, 196);
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  $xp-title-gradient: linear-gradient(180deg, rgba(66,150,253,1) 0%, rgba(0,80,219,1) 15%, rgb(8, 107, 255) 67%, rgba(1,83,227,1) 100%);
 
   .xp-title-container {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 0.35rem;
-    padding-bottom: 0.35rem;
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-    color: white;
-    background: $xp-title-gradient;
     gap: 0.15rem;
+    padding: 0.35rem 0.25rem;
+    color: white;
+    background: linear-gradient(
+      180deg,
+      rgba(66, 150, 253, 1) 0%,
+      rgba(0, 80, 219, 1) 15%,
+      rgb(8, 107, 255) 67%,
+      rgba(1, 83, 227, 1) 100%
+    );
 
     .xp-icon {
       width: fit-content;
@@ -63,18 +72,22 @@ body {
     }
 
     .xp-title {
-      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      text-shadow: 1.5px 1.5px 0px rgba(0,0,0,0.75);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.75);
     }
   }
 
   .xp-body-container {
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
     width: 100%;
     padding: 0.5rem;
-    border-left: 3px solid rgb(0,85,230);
-    border-right: 3px solid rgb(0, 40, 219);
-    border-bottom: 3px solid rgb(0, 42, 230);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    border-left: 3px solid $xp-border-left-color;
+    border-right: 3px solid $xp-border-right-color;
+    border-bottom: 3px solid $xp-border-bottom-color;
   }
 
   img {
@@ -84,45 +97,9 @@ body {
   }
 }
 
-.year-container {
-  @include margins();
-  @include round-top();
-  padding: 0.5rem;
-  padding-top: 0.25rem;
-  border: 1px solid lightgrey;
-}
-
-#guess-slider {
-  @include margins();
-  width: 100%
-}
-
-#guess-button {
-  @include margins();
-  width: 100%;
-  height: 3rem;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-bold {
-  font-weight: bold;
-}
-
-.text-muted {
-  color: grey;
-  font-style: italic;
-}
-
 // Desktop Mode:
 @media only screen and (min-height: 900px) {
   .app-container {
     justify-content: center;
-  }
-
-  body {
-    background: linear-gradient(to bottom, #00b4db, #008fbe);
   }
 }

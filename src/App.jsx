@@ -16,7 +16,7 @@ const evaluateGuess = (guess, year) => {
 
 const trimImageLink = (link) => {
   const truncatedString = link.substring(1 + link.lastIndexOf("/"));
-  return truncatedString.length < 45 
+  return truncatedString.length < 40 
     ? truncatedString 
     : truncatedString.substring(0, 40) + "...";
 };
@@ -35,7 +35,7 @@ function App() {
   };
 
   return (
-    <div className="app-container" style={{ backgroundImage: `url("./bg_bliss.png")`, backgroundSize: "cover"}}>
+    <div className="app-container">
 
       <div className="xp-container">
         <div className="xp-title-container">

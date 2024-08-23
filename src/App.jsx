@@ -12,7 +12,7 @@ const getRandomQuestion = () => {
 
 const evaluateGuess = (guess, year) => {
   const difference = Math.abs(parseInt(year) - guess);
-  return `Your guess: ${guess}\nActual Year: ${year}\nYou were ${difference} years off.`;
+  return [`Your guess: ${guess}`, `Actual Year: ${year}`, `You were ${difference} years off.`];
 };
 
 const trimImageLink = (link) => {
@@ -70,7 +70,7 @@ function App() {
         <input id="guess-slider" type="range" value={ year } onChange={ changeYear } min={ yearMin } max={ yearMax }/>
         <button id="guess-button" onClick={ handleGuess }>Confirm Guess</button>
       </XPCard>
-      {showResult && <div className="result-container"><XPCard icon="./question_icon.png" title="Results!" bodyText={evaluateGuess(year, question.year)}><button onClick={handleGuess}>Go Back</button></XPCard></div>}
+      {showResult && <div className="result-container"><XPCard icon="./question_icon.png" title="Results!" bodyText={evaluateGuess(year, question.year).map(element => <p>{element}</p>)}><button onClick={handleGuess}>Go Back</button></XPCard></div>}
     </div>
   );
 }

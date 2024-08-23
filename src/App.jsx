@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './globals.scss';
-import questions from './assets/questions.json';
+import questions from './assets/movies.json';
 import XPCard from './components/XPCard';
 
 const yearMin = 1924;
@@ -12,7 +12,16 @@ const getRandomQuestion = () => {
 
 const evaluateGuess = (guess, year) => {
   const difference = Math.abs(parseInt(year) - guess);
+  // playSound(difference);
   return [`Your guess: ${guess}`, `Actual Year: ${year}`, `You were ${difference} years off.`];
+};
+
+const playSound = (difference) => {
+  const sound = new Audio();
+  if (difference >= 10) sound.src = `https://www.101soundboards.com/sounds/14500-critical-stop`;
+  else if (difference >= 1) sound.src = `https://www.101soundboards.com/sounds/14504-exclamation`;
+  else sound.src = `https://www.101soundboards.com/sounds/14523-tada`;
+  sound.play();
 };
 
 const trimImageLink = (link) => {
@@ -33,7 +42,7 @@ function App() {
 
   const handleGuess = () => {
     setShowResult(!showResult);
-    showResult ? setQuestion(getRandomQuestion()) : _ ;
+    showResult ? setQuestion(getRandomQuestion()) : null ;
   };
 
   return (
@@ -54,7 +63,7 @@ function App() {
       </div>
       <XPCard
         icon="./question_icon.png"
-        title="In what year did the following happen?"
+        title="In what year was the following film released?"
         bodyText={question.text}
       />
       <XPCard

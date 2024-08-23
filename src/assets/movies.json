@@ -1,0 +1,282 @@
+[
+    {
+        "text": "Dune: Part Two",
+        "year": 2024,
+        "img": "https://image.tmdb.org/t/p/original/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+    },
+    {
+        "text": "Oppenheimer",
+        "year": 2023,
+        "img": "https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+    },
+    {
+        "text": "Everything Everywhere All at Once",
+        "year": 2022,
+        "img": "https://image.tmdb.org/t/p/original/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg"
+    },
+    {
+        "text": "Dune",
+        "year": 2021,
+        "img": "https://image.tmdb.org/t/p/original/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
+    },
+    {
+        "text": "Soul",
+        "year": 2020,
+        "img": "https://image.tmdb.org/t/p/original/pEz5aROvfy5FBW1OTlrDO3VryWO.jpg"
+    },
+
+    {
+        "text": "Once Upon a Time... in Hollywood",
+        "year": 2019,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
+    },
+    {
+        "text": "Vice",
+        "year": 2018,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1gCab6rNv1r6V64cwsU4oEr649Y.jpg"
+    },
+    {
+        "text": "Get Out",
+        "year": 2017,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg"
+    },
+    {
+        "text": "La La Land",
+        "year": 2016,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+    },
+    {
+        "text": "The Revenant",
+        "year": 2015,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tSaBkriE7TpbjFoQUFXuikoz0dF.jpg"
+    },
+    {
+        "text": "Whiplash",
+        "year": 2014,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7fn624j5lj3xTme2SgiLCeuedmO.jpg"
+    },
+    {
+        "text": "The Wolf of Wall Street",
+        "year": 2013,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/34m2tygAYBGqA9MXKhRDtzYd4MR.jpg"
+    },
+    {
+        "text": "Skyfall",
+        "year": 2012,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg"
+    },
+    {
+        "text": "Drive",
+        "year": 2011,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/602vevIURmpDfzbnv5Ubi6wIkQm.jpg"
+    },
+    {
+        "text": "Inception",
+        "year": 2010,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg"
+    },
+
+    {
+        "text": "The Hangover",
+        "year": 2009,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uluhlXubGu1VxU63X9VHCLWDAYP.jpg"
+    },
+    {
+        "text": "The Dark Knight",
+        "year": 2008,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+    },
+    {
+        "text": "Juno",
+        "year": 2007,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jNIn2tVhpvFD6P9IojldI3mNYcn.jpg"
+    },
+    {
+        "text": "The Departed",
+        "year": 2006,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nT97ifVT2J1yMQmeq20Qblg61T.jpg"
+    },
+    {
+        "text": "Brokeback Mountain",
+        "year": 2005,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aByfQOQBNa4CMFwIgq3QrqY2ZHh.jpg"
+    },
+    {
+        "text": "Spider-Man 2",
+        "year": 2004,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/olxpyq9kJAZ2NU1siLshhhXEPR7.jpg"
+    },
+    {
+        "text": "Finding Nemo",
+        "year": 2003,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg"
+    },
+    {
+        "text": "Catch Me If You Can",
+        "year": 2002,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg"
+    },
+    {
+        "text": "Spirited Away",
+        "year": 2001,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg"
+    },
+    {
+        "text": "Requiem for a Dream",
+        "year": 2000,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nOd6vjEmzCT0k4VYqsA2hwyi87C.jpg"
+    },
+
+    {
+        "text": "Fight Club",
+        "year": 1999,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
+    },
+    {
+        "text": "Saving Private Ryan",
+        "year": 1998,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg"
+    },
+    {
+        "text": "Good Will Hunting",
+        "year": 1997,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bABCBKYBK7A5G1x0FzoeoNfuj2.jpg"
+    },
+    {
+        "text": "Independence Day",
+        "year": 1996,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg"
+    },
+    {
+        "text": "Toy Story",
+        "year": 1995,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg"
+    },
+    {
+        "text": "Pulp Fiction",
+        "year": 1994,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg"
+    },
+    {
+        "text": "Groundhog Day",
+        "year": 1993,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gCgt1WARPZaXnq523ySQEUKinCs.jpg"
+    },
+    {
+        "text": "Aladdin",
+        "year": 1992,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nlaiczW81kY46GBdfIcTrBIqr8I.jpg"
+    },
+    {
+        "text": "The Silence of the Lambs",
+        "year": 1991,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg"
+    },
+    {
+        "text": "Edward Scissorhands",
+        "year": 1990,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/e0FqKFvGPdQNWG8tF9cZBtev9Em.jpg"
+    },
+
+    {
+        "text": "Kiki's Delivery Service",
+        "year": 1989,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/Aufa4YdZIv4AXpR9rznwVA5SEfd.jpg"
+    },
+    {
+        "text": "Die Hard",
+        "year": 1988,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg"
+    },
+    {
+        "text": "Full Metal Jacket",
+        "year": 1987,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kMKyx1k8hWWscYFnPbnxxN4Eqo4.jpg"
+    },
+    {
+        "text": "Top Gun",
+        "year": 1986,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg"
+    },
+    {
+        "text": "The Goonies",
+        "year": 1985,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eBU7gCjTCj9n2LTxvCSIXXOvHkD.jpg"
+    },
+    {
+        "text": "The Terminator",
+        "year": 1984,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qvktm0BHcnmDpul4Hz01GIazWPr.jpg"
+    },
+    {
+        "text": "Star Wars: Episode VI - Return of the Jedi",
+        "year": 1983,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jQYlydvHm3kUix1f8prMucrplhm.jpg"
+    },
+    {
+        "text": "Blade Runner",
+        "year": 1982,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg"
+    },
+    {
+        "text": "The Evil Dead",
+        "year": 1981,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uYxQ6xhP3WjqPZtxyAOnZQWnZqn.jpg"
+    },
+    {
+        "text": "Star Wars: Episode V - The Empire Strikes Back",
+        "year": 1980,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg"
+    },
+
+    {
+        "text": "Alien",
+        "year": 1979,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
+    },
+    {
+        "text": "Halloween",
+        "year": 1978,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg"
+    },
+    {
+        "text": "Star Wars: Episode IV - A New Hope",
+        "year": 1977,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg"
+    },
+    {
+        "text": "Rocky",
+        "year": 1976,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cqxg1CihGR5ge0i1wYXr4Rdeppu.jpg"
+    },
+    {
+        "text": "Jaws",
+        "year": 1975,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lxM6kqilAdpdhqUl2biYp5frUxE.jpg"
+    },
+    {
+        "text": "The Godfather Part II",
+        "year": 1974,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg"
+    },
+    {
+        "text": "The Exorcist",
+        "year": 1973,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg"
+    },
+    {
+        "text": "The Godfather",
+        "year": 1972,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+    },
+    {
+        "text": "A Clockwork Orange",
+        "year": 1971,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4sHeTAp65WrSSuc05nRBKddhBxO.jpg"
+    },
+    {
+        "text": "M*A*S*H",
+        "year": 1970,
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/on8Q9LhtHYNhmITjUMpgOUkIG8o.jpg"
+    }
+]

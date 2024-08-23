@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './globals.scss';
 import questions from './assets/questions.json';
+import XPCard from './components/XPCard';
 
 const yearMin = 1924;
 const yearMax = 2024;
@@ -37,48 +38,37 @@ function App() {
   return (
     <div className="app-container">
       <div className="xp-taskbar">
-        <span className="start">
-          <i class="fa-brands fa-windows"></i>
-          start
-        </span>
-        <span className="program">
-          <i class="fa-brands fa-square-github"></i>
-          <a href="https://github.com/weakbox/guess-the-year-game">GitHub</a>
-        </span>
-        <span className="program">
-          <i class="fa-brands fa-linkedin"></i>
-          <a href="https://www.linkedin.com/in/weakbox/">LinkedIn</a>
-        </span>
+        <a href="https://github.com/weakbox/guess-the-year-game">
+          <span className="program">
+            <i className="fa-brands fa-square-github"></i>
+            GitHub
+          </span>
+        </a>
+        <a href="https://github.com/weakbox/guess-the-year-game">
+          <span className="program">
+            <i className="fa-brands fa-linkedin"></i>
+            LinkedIn
+          </span>
+        </a>
       </div>
-      <div className="xp-container">
-        <div className="xp-title-container">
-          <img className="xp-icon" src="./question_icon.png"/>
-          <h5 className="xp-title">In what year did the following happen?</h5>
-        </div>
-        <div className="xp-body-container">
-          <h2 id="question-text">{ question.text }</h2>
-        </div>
-      </div>
-      <div className="xp-container">
-        <div className="xp-title-container">
-          <img className="xp-icon" src="./image_icon.png"/>
-          <h5 className="xp-title">{ trimImageLink(question.img) }</h5>
-        </div>
-        <div className="xp-body-container">
-          <img id="question-img" src={ question.img }/>
-        </div>
-      </div>
-      <div className="xp-container">
-        <div className="xp-title-container">
-          <img className="xp-icon" src="./guess_icon.png"/>
-          <h5 className="xp-title">What is your guess?</h5>
-        </div>
-        <div className="xp-body-container">
-          <input type="number" id="guess-year" value={ year } onChange={ changeYear } min={ yearMin } max={ yearMax }/>
-          <input id="guess-slider" type="range" value={ year } onChange={ changeYear } min={ yearMin } max={ yearMax }/>
-          <button id="guess-button" onClick={ handleGuess }>Confirm Guess</button>
-        </div>
-      </div>
+      <XPCard
+        icon="./question_icon.png"
+        title="In what year did the following happen?"
+        bodyText={question.text}
+      />
+      <XPCard
+        icon="./image_icon.png"
+        title={trimImageLink(question.img)}
+        hintImage={question.img}
+      />
+      <XPCard
+        icon="./guess_icon.png"
+        title="What is your guess?"
+      >
+        <input type="number" id="guess-year" value={ year } onChange={ changeYear } min={ yearMin } max={ yearMax }/>
+        <input id="guess-slider" type="range" value={ year } onChange={ changeYear } min={ yearMin } max={ yearMax }/>
+        <button id="guess-button" onClick={ handleGuess }>Confirm Guess</button>
+      </XPCard>
     </div>
   );
 }

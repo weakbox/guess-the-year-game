@@ -40,105 +40,13 @@ $xp-border-left-color: rgb(0, 85, 230);
 $xp-border-right-color: rgb(0, 40, 219);
 $xp-border-bottom-color: rgb(0, 42, 230);
 
-.xp-container {
-  @include round-top();
-  width: 95%;
-  background-color: $xp-bg-color;
-  border: 1px solid $xp-border-color;
-  box-shadow: $xp-box-shadow;
-  overflow: hidden; // Fixes issue with border radius.
-
-  .xp-title-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 0.3rem;
-    flex-shrink: 0;
-    padding: 0.35rem 0.5rem;
-    color: white;
-    background: linear-gradient(
-      180deg,
-      rgba(66, 150, 253, 1) 0%,
-      rgba(0, 80, 219, 1) 15%,
-      rgb(8, 107, 255) 67%,
-      rgba(1, 83, 227, 1) 100%
-    );
-
-    .xp-icon {
-      width: 1.1rem;
-      height: 1.1rem;
-      filter: drop-shadow(1px 1px 1px #000000);
-    }
-
-    .xp-title {
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      text-shadow: 1.2px 1.2px 0.5px rgba(0, 0, 0, 0.75);
-    }
-  }
-
-  .xp-body-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    flex-shrink: 0;
-    width: 100%;
-    padding: 0.5rem;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-    border-left: 3px solid $xp-border-left-color;
-    border-right: 3px solid $xp-border-right-color;
-    border-bottom: 3px solid $xp-border-bottom-color;
-
-    img {
-      width: 100%;
-      aspect-ratio: 4.5/3;
-      object-fit: contain;
-    }
-
-    input[type="range"] {
-      appearance: none;
-      cursor: pointer;
-      width: 95%;
-      overflow: hidden;
-      border: 1px solid black;
-    }
-
-    input[type="range"]::-moz-range-track {
-      background-color: $xp-bg-color;
-    }
-
-    input[type="range"]::-moz-range-thumb {
-      background-color: $xp-bg-color;
-      border: none;
-      border-radius: 0;
-      width: 10px;
-      height: 100%;
-      border: 1px solid black;
-      box-shadow: inset -2px -2px 2px 0 rgba(0,0,0,0.5),inset 2px 2px 2px 0 rgba(255,255,255,0.8);
-    }
-
-    button {
-      width: 50%;
-      height: 2rem;
-      color: black;
-      background-color: $xp-bg-color;
-      transition: background-color 0.25s ease;
-      border: 1px solid black;
-      box-shadow: inset -2px -2px 2px 0 rgba(0,0,0,0.5),inset 2px 2px 2px 0 rgba(255,255,255,0.8);
-    }
-
-    button:hover {
-      background-color: $xp-bg-color-hover;
-      cursor: pointer;
-    }
-
-    button:active {
-      background-color: $xp-bg-color-hover;
-      transform: translateY(2px);
-    }
-  }
+a {
+  width: 33%;
+  height: 75%;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
+  color: white;
+  text-decoration: none;
 }
 
 .xp-taskbar {
@@ -149,6 +57,7 @@ $xp-border-bottom-color: rgb(0, 42, 230);
   gap: 0.25rem;
   flex-shrink: 0;
   width: 100%;
+  padding: 0 0.25rem;
   height: 2.5rem;
   color: white;
   background: linear-gradient(
@@ -161,49 +70,14 @@ $xp-border-bottom-color: rgb(0, 42, 230);
   border: 1px solid $xp-border-color;
   border-radius: 0;
 
-  .start {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 6px;
-    width: 25%;
-    height: 100%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    border: 1px solid rgb(50,123,52);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background: linear-gradient(
-      180deg,
-      rgb(97,172,108) 0%,
-      rgb(58,145,61) 15%,
-      rgb(64,163,66) 67%,
-      rgb(64,163,66) 100%
-    );
-    box-shadow: inset 4px 4px 8px 0px rgba(194, 255, 137, 0.4);;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large;
-    font-weight: bold;
-    text-decoration: none;
-    font-style: italic;
-    color: white;
-    
-    text-shadow: 1.2px 1.2px 2px rgba(0, 0, 0, 0.75);
-
-    i {
-      filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.75));
-    }
-  }
-
   .program {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     gap: 6px;
-    width: 30%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     border: 1px solid $xp-border-color;
@@ -216,14 +90,6 @@ $xp-border-bottom-color: rgb(0, 42, 230);
       rgb(25, 98, 223) 100%
     );
     box-shadow: inset 4px 4px 8px 0px rgba(137, 192, 255, 0.4);;
-
-    a {
-      
-      font-family: Tahoma, Geneva, Verdana, sans-serif;
-      font-size: smaller;
-      color: white;
-      text-decoration: none;
-    }
 
     i {
       filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.75));

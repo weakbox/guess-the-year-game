@@ -25,26 +25,27 @@ const trimImageLink = (link) => {
 function App() {
   const [question, setQuestion] = useState(getRandomQuestion());
   const [year, setYear] = useState(yearMax);
+  const [showResult, setShowResult] = useState(false);
 
   const changeYear = (event) => {
     setYear(event.target.value);
   };
 
   const handleGuess = () => {
-    alert(evaluateGuess(year, question.year));
-    setQuestion(getRandomQuestion());
+    setShowResult(!showResult);
+    showResult ? setQuestion(getRandomQuestion()) : _ ;
   };
 
   return (
     <div className="app-container">
       <div className="xp-taskbar">
-        <a href="https://github.com/weakbox/guess-the-year-game">
+        <a href="https://github.com/weakbox/guess-the-year-game" target="_blank">
           <span className="program">
             <i className="fa-brands fa-square-github"></i>
             GitHub
           </span>
         </a>
-        <a href="https://github.com/weakbox/guess-the-year-game">
+        <a href="https://github.com/weakbox/guess-the-year-game" target="_blank">
           <span className="program">
             <i className="fa-brands fa-linkedin"></i>
             LinkedIn
@@ -69,6 +70,7 @@ function App() {
         <input id="guess-slider" type="range" value={ year } onChange={ changeYear } min={ yearMin } max={ yearMax }/>
         <button id="guess-button" onClick={ handleGuess }>Confirm Guess</button>
       </XPCard>
+      {showResult && <div className="result-container"><XPCard icon="./question_icon.png" title="Results!" bodyText={evaluateGuess(year, question.year)}><button onClick={handleGuess}>Go Back</button></XPCard></div>}
     </div>
   );
 }

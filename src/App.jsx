@@ -63,7 +63,7 @@ function App() {
       </div>
       <XPCard
         icon="./question_icon.png"
-        title="In what year was the following film released?"
+        title="In what year did the following happen?"
         bodyText={question.text}
       />
       <XPCard

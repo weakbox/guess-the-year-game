@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './globals.scss';
-import questions from './assets/movies.json';
+import questions from './assets/video_games.json';
 import XPCard from './components/XPCard';
 
 const yearMin = 1924;

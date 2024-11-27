@@ -108,5 +108,65 @@
     "text": "The Nintendo Virtual Boy is released in North America.",
     "year": 1995,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Virtual-Boy-Set.jpg/300px-Virtual-Boy-Set.jpg"
+  },
+  {
+    "text": "The Steam platform is launched by Valve.",
+    "year": 2003,
+    "img": "https://upload.wikimedia.org/wikipedia/en/9/9c/Steam_%28service%29.png"
+  },
+  {
+    "text": "The Sega Genesis is released in North America.",
+    "year": 1989,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sega-Mega-Drive-JP-Mk1-Console-Set.jpg/2560px-Sega-Mega-Drive-JP-Mk1-Console-Set.jpg"
+  },
+  {
+    "text": "The Atari 2600 is released in North America.",
+    "year": 1977,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Atari-2600-Wood-4Sw-Set.png/2560px-Atari-2600-Wood-4Sw-Set.png"
+  },
+  {
+    "text": "The Microsoft Xbox is released in North America.",
+    "year": 2001,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Xbox-Console-wDuke-L.jpg/2560px-Xbox-Console-wDuke-L.jpg"
+  },
+  {
+    "text": "The Microsoft Xbox 360 is released in North America.",
+    "year": 2005,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Xbox-360-Pro-wController.jpg/1024px-Xbox-360-Pro-wController.jpg"
+  },
+  {
+    "text": "The Sega Dreamcast is released in North America.",
+    "year": 1999,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Dreamcast-Console-Set.png/2560px-Dreamcast-Console-Set.png"
+  },
+  {
+    "text": "The Xbox One is released in North America.",
+    "year": 2013,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Microsoft-Xbox-One-Console-Set-wKinect.jpg/1920px-Microsoft-Xbox-One-Console-Set-wKinect.jpg"
+  },
+  {
+    "text": "The Sega Saturn is released in North America.",
+    "year": 1995,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Sega-Saturn-Console-Set-Mk1.png/2560px-Sega-Saturn-Console-Set-Mk1.png"
+  },
+  {
+    "text": "The Magnavox Odyssey is released in North America.",
+    "year": 1972,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Magnavox-Odyssey-Console-Set.jpg/2560px-Magnavox-Odyssey-Console-Set.jpg"
+  },
+  {
+    "text": "The Commodore 64 is released.",
+    "year": 1982,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/3_versioner_av_c64_%28modified%29.jpg/1024px-3_versioner_av_c64_%28modified%29.jpg"
+  },
+  {
+    "text": "The original Doom is released.",
+    "year": 1993,
+    "img": "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg"
+  },
+  {
+    "text": "The Legend of Zelda: Ocarina of Time is released.",
+    "year": 1998,
+    "img": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg"
   }
 ]

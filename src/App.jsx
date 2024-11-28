@@ -11,8 +11,21 @@ import tada from "/tada.mp3";
 const yearMin = 1924;
 const yearMax = 2024;
 
+// Prevents duplicate questions unless all questions have been exhausted.
+// This function is kind of stupid and should be fixed, it is impure, so it bahves weirdly.
+let seenQuestions = [];
 const getRandomQuestion = () => {
-  return questions[Math.floor(Math.random() * questions.length)];
+  const availableQuestions = questions.filter(q => !seenQuestions.includes(q));
+
+  if (availableQuestions.length === 0) {
+    seenQuestions = []
+    availableQuestions.push(...questions);
+  }
+
+  const question = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+  seenQuestions.push(question);
+
+  return question;
 };
 
 const evaluateGuess = (guess, year) => {
@@ -48,7 +61,7 @@ function App() {
 
   const handleGuess = () => {
     setShowResult(!showResult);
-    showResult ? setQuestion(getRandomQuestion()) : null ;
+    showResult ? setQuestion(getRandomQuestion()) : null;
   };
 
   return (
